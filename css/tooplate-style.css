@@ -269,7 +269,7 @@ footer {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
+.grid figure figcaption > a{
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -308,6 +308,10 @@ figure.effect-goliath img,
 figure.effect-goliath h2 {
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
+}
+.effect-goliath img{
+  width: 200px;
+  height: 285px;
 }
 
 figure.effect-goliath img {
